@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learning website</title>
-    <link rel="stylesheet" href="link rel="stylesheet href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />">
+    <link rel="stylesheet" href="link rel="stylesheet href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
 <style>
     :root{
@@ -12,17 +12,20 @@
     }
     body{
         margin: 0;
+        background-color: rgb(247, 220, 220);
     }
     header{
-        background-image: url(https://images.pexels.com/photos/956981/milky-way-starry-sky-night-sky-star-956981.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-        height: 90vh;
+        background-image: url(https://th.bing.com/th/id/OIP.cUAu-zQbvqrve2nQGd0tGAAAAA?rs=1&pid=ImgDetMain);
+        height: 70vh;
         color: aqua;
         text-align: center;
-        padding-top: 300px;
+        padding-top: 150px;
         box-sizing: border-box;
+        
     }
     .hero-title{
         margin: 0;font-family: roboto flex;
+        
     }
     .hero-subtitle{
         text-align: center; 
@@ -30,9 +33,9 @@
     }
     .hero-btn{
         padding: 10px 20px;
-        background-color: rgb(43, 46, 43);
+        background-color: rgb(20, 177, 20);
         border-radius: 5px;
-    border:auto;
+    
     }
     .feature-card{
         border: 3px solid rgb(24, 23, 23);
@@ -44,7 +47,7 @@
     }
     .feature-card:hover{
         background-color: var(--theme-color);
-        color: red;
+        color:rgb(84, 30, 184);
     }
     .section-feature {
             text-align: center;
@@ -55,14 +58,19 @@
         }
 
         .card-container {
-           align-items: center;
+           
             display: flex;
             gap: 30px;
         }
 
         .section-title {
-        text-align: center;
+            text-align: center;
             font-size: 3rem;
+            
+        }
+        .section-subtitle{
+            text-align: center;
+            font-size: 1rem;
         }
 
         .section-video {
@@ -73,7 +81,6 @@
             width: 100%;
         }
         .section-contact{
-        
             padding: 50px 300px;
             font-family: roboto flex;
         }
@@ -81,17 +88,20 @@
         .text-input,
         .text-input-area {
             width: 100%;
-            padding: 20px;
-            margin-bottom: 30px;
+            padding: 10px;
+            margin-bottom: 40px;
         }
 
         .contact-btn {
-        
             padding: 10px 20px;
             background-color: var(--theme-color);
             color: white;
             border: none;
             border-radius: 5px;
+            align-items:center ;
+        }
+        form{
+            align-items: center;
         }
 
         footer {
@@ -110,9 +120,6 @@
             margin-bottom: 10px;
             text-decoration: none;
         }
-    
-    
-        
 
 </style>
 </head>
@@ -126,12 +133,12 @@
         <main>
     
             <section class="section-features">
-        <h2 class="section title">Why Choose Us</h2>
+        <h2 class="section-title">Why Choose Us</h2>
        <div class="section-subtitle">Learn with us and enjoy the various advantages</div>
         
      <div class="card-container">
      <div class="feature-card">
-        <i class="fa-regular fa-clock"></i>
+        <i class="fa-solid fa-video"></i>
         <h3>Flexible timing</h3>
         <p>feel freee to modify your study schedule accordingly</p>
         </div>
@@ -151,10 +158,9 @@
         <video src="pexels-c-technical-6209572 (540p).mp4" autoplay muted loop></video>
      </section>
      <section class="section contact">
-        <h2 class="section-title">Contact Us</h2>
-        
-        <form> 
-            <label>Name</label>
+        <h2 class="section-title">Contact Us </h2>        
+        <form>
+            <label >Name</label>
             <input type="text" class="text-input">
            
             <label >Email</label>
@@ -166,8 +172,8 @@
             <label >Message</label>
             <textarea rows="5" class="text-input-area"></textarea>
 
-            <button class="contact-btn"> Submit</button>
-        </form>
+            <button class="contact-btn">Submit</button>
+       </form>
         </section>
        </main>
     </header>
