@@ -15,7 +15,7 @@
     }
     header{
         background-image: url(https://images.pexels.com/photos/956981/milky-way-starry-sky-night-sky-star-956981.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-        height: 70vh;
+        height: 90vh;
         color: aqua;
         text-align: center;
         padding-top: 300px;
@@ -25,20 +25,21 @@
         margin: 0;font-family: roboto flex;
     }
     .hero-subtitle{
-        text-align: center; font-family: roboto flex;
+        text-align: center; 
+        font-family: roboto flex;
     }
     .hero-btn{
         padding: 10px 20px;
-        background-color: green;
+        background-color: rgb(43, 46, 43);
         border-radius: 5px;
-    border: transparent;
+    border:auto;
     }
     .feature-card{
-        border: 2px solid red;
+        border: 3px solid rgb(24, 23, 23);
         text-align: center;
         padding: 50px;
         transition-duration: 0.3s;
-        border-radius: 10px;
+        border-radius: 20px;
     
     }
     .feature-card:hover{
@@ -46,7 +47,8 @@
         color: red;
     }
     .section-feature {
-            /*display: flex; */
+            text-align: center;
+            display: flex;
             font-family: roboto flex;
             padding: 50px 300px;
             color: var(--theme-color);
@@ -71,6 +73,7 @@
             width: 100%;
         }
         .section-contact{
+        
             padding: 50px 300px;
             font-family: roboto flex;
         }
@@ -78,11 +81,12 @@
         .text-input,
         .text-input-area {
             width: 100%;
-            padding: 10px;
-            margin-bottom: 40px;
+            padding: 20px;
+            margin-bottom: 30px;
         }
 
         .contact-btn {
+        
             padding: 10px 20px;
             background-color: var(--theme-color);
             color: white;
@@ -106,6 +110,9 @@
             margin-bottom: 10px;
             text-decoration: none;
         }
+    
+    
+        
 
 </style>
 </head>
@@ -118,15 +125,16 @@
     </header>
         <main>
     
-            <section class="section features">
+            <section class="section-features">
         <h2 class="section title">Why Choose Us</h2>
        <div class="section-subtitle">Learn with us and enjoy the various advantages</div>
         
      <div class="card-container">
      <div class="feature-card">
-        <i class="fa5x fa-regular fa-clock"></i>
+        <i class="fa-regular fa-clock"></i>
         <h3>Flexible timing</h3>
         <p>feel freee to modify your study schedule accordingly</p>
+        </div>
      <div class="feature-card">
         <i class="fa-solid fa-video"></i>
         <h3>Recorded Video Lectures</h3>
@@ -146,7 +154,7 @@
         <h2 class="section-title">Contact Us</h2>
         
         <form> 
-            <label >Name</label>
+            <label>Name</label>
             <input type="text" class="text-input">
            
             <label >Email</label>
@@ -159,7 +167,7 @@
             <textarea rows="5" class="text-input-area"></textarea>
 
             <button class="contact-btn"> Submit</button>
-       </form>
+        </form>
         </section>
        </main>
     </header>
