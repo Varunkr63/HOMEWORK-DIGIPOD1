@@ -2,8 +2,56 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
+font-family: poppins,sans-serif;
 }
 html,body{
-    height: 100%;
+    min-height: 100vh;
     width: 100%;
+    background: #EEECEB;
 }
+footer{
+    position: fixed;
+    background: beige;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+footer .content{
+background: red;
+max-width: 1250px;
+margin: auto;
+padding: 30px 40px 40px 40px;
+}
+footer.content .top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+content.top.logo-details{
+    color: #ffff;
+    font-size: 30px;
+
+}
+.content.top.media-icons{
+    display: flex;
+}
+.content.top.media-icons a{
+    height: 40px;
+    width: 40px;
+    background: red;
+    margin: 0 8px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    transition: all 0.4s ease;
+}
+.top.media-icons  a:nth-child(1)hover{
+    color: #426782;
+    background: #fffff2;
+
+}
+
+
